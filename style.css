@@ -1,0 +1,108 @@
+h1 {
+  color: #b34444;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Major Mono Display', monospace;
+  text-shadow: 2px, 2px;
+  margin-bottom: 20px;
+  color: #b34444;
+  font-size: 30px;
+}
+
+body {
+  background-color: #dfe8e7;
+  background-image: url("images/prism.png");
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin: 30px;
+}
+
+#profpic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%
+  /*border: 2px solid #dabebe;*/
+}
+
+.container {
+  background-color: #ffffff;
+  background-image: url("images/circles-light.png");
+  margin: 30px auto;
+  text-align: center;
+  font-weight: 400;
+  padding: 30px;
+  padding-bottom: 40px;
+  width: 1000px;
+  border-radius: 50px;
+  border: 2px solid #8c7373;
+  box-shadow: 5px 5px #dabebe;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.social {
+  background-color: #ffffff;
+  background-image: url("images/circles-light.png");
+  color: black;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: 700;
+  padding: 30px;
+  width: 1000px;
+  border-radius: 50px;
+  border: 2px solid #8c7373;
+  box-shadow: 5px 5px #dabebe;
+}
+
+.social ul {
+  padding-left: 0;
+  padding-top: 20px;
+}
+
+.social li {
+  display: inline;
+  font-size: 25px;
+  padding: 40;
+  font-size: 30
+}
+
+.social a {
+  text-decoration: none;
+  color: #5a8d8e;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: #a99696;
+  padding: 8px;
+  border-radius: 25%;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
