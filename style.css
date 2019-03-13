@@ -27,8 +27,8 @@ p {
   width: 180px;
   height: 180px;
   object-fit: cover;
+  border: 2px solid black;
   border-radius: 50%
-  /*border: 2px solid #dabebe;*/
 }
 
 .container {
@@ -46,17 +46,17 @@ p {
 }
 
 @media (max-width: 960px) {
-  .container {
+  .container, .social {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  .container {
+  .container, .social {
     width: 500px;
   }
 }
 @media (max-width: 540px) {
-  .container {
+  .container, .social {
     width: 300px;
   }
 }
