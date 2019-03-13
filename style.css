@@ -45,22 +45,6 @@ p {
   box-shadow: 5px 5px #dabebe;
 }
 
-@media (max-width: 960px) {
-  .container, .social {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  .container, .social {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  .container, .social {
-    width: 300px;
-  }
-}
-
 .social {
   background-color: #ffffff;
   background-image: url("images/circles-light.png");
@@ -90,6 +74,22 @@ p {
 .social a {
   text-decoration: none;
   color: #5a8d8e;
+}
+
+@media (max-width: 960px) {
+  .container, .social {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container, .social {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container, .social {
+    width: 300px;
+  }
 }
 
 .button {
